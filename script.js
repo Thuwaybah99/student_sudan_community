@@ -54,7 +54,7 @@ modal.addEventListener('close', () => { modalImage.removeAttribute('src'); });
 const play = document.getElementById('play-video');
 play.addEventListener('click', () => {
   const frame = document.createElement('iframe');
-  frame.src = 'https://www.youtube-nocookie.com/embed/r80GV8-zdxE?autoplay=1&rel=0';
+  frame.src = 'https://www.youtube-nocookie.com/embed/EjFoUM-Shu4?autoplay=1&rel=0';
   frame.title = 'Video from the student appreciation event';
   frame.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
   frame.setAttribute('allowfullscreen', '');
